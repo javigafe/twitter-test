@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Twitter PMUD</title>
+  <link rel="stylesheet" href="css/master.css" media="screen" title="no title">
+</head>
+<body>
+  <header>
+    <center><img src="Twitter blanco.png" alt="3 en raya" class="img-responsive" width='250'/></center>
+
+    <h1>Twitter PMUD</h1>
+    <br>
+  </header>
+
+  <div>
+    <div class="contenido">
+      <!-- Enviar twett -->
+      <form action="/phps/enviar_twett.php" target="_blank">
+      <input class="boton" type="submit" value="Enviar Tweet" />
+      </form>
+    </div>
+    <div class="contenido">
+      <!-- busaca y sigue UPCVilanova -->
+      <form action="/phps/buscar.php" target="_blank">
+      <input class="boton" type="submit" value="Buscar y seguir UPCVilanova" />
+      </form>
+      <a href="https://twitter.com/UPCVilanova"> Twitter UPCVilanova</a>
+    </div>
+    <div class="contenido">
+      <!-- muestra los followers ID -->
+      <form action="/phps/idFolowers.php" target="_blank">
+      <input class="boton" type="submit" value="Muestra ID de los followers" />
+      </form>
+    </div>
+    <div class="contenido">
+      <!-- muestra los followers -->
+      <form action="/phps/folowers.php" target="_blank">
+      <input class="boton" type="submit" value="Muestra los followers" />
+      </form>
+    </div>
+    <div class="contenido">
+      <!-- muestra la configuracion de cuenta-->
+      <form action="/phps/configuracionCuenta.php" target="_blank">
+      <input class="boton" type="submit" value="Muestra la configuracion de cuenta" />
+      </form>
+    </div>
+    <div class="contenido">
+      <!-- muestra mi timeline-->
+      <form action="/phps/miTimeline.php" target="_blank">
+      <input class="boton" type="submit" value="Muestra mi timeline" />
+      </form>
+    </div>
+    <div class="contenido">
+      <!-- muestra mi timeline bonito-->
+      <form action="/phps/miTimelineBonito.php" target="_blank">
+      <input class="boton" type="submit" value="Muestra mi timelineBonito" />
+      </form>
+    </div>
+
+
+  </div>
+
+</body>
+</html>
